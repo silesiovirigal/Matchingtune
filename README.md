@@ -9,7 +9,7 @@ mesmos artistas e estilos de música. O _MatchingTune_ notifica também o utiliz
 Sejam artistas que ouve ou de estilos de música semelhante ao que ouve, recomendando assim eventos que possam 
 ser do interesse do utilizador.
 
-#**Permissões requisitadas:**
+##**Permissões requisitadas:**
 	**Localização:** para poder encontrar eventos perto do usuário é preciso ter acesso a localização deste.
 O _MatchingTune_ mostra também o que as pessoas à volta do utilizador estão a ouvir.
 É preciso também trabalhar com o mapa, uma vez que solicitamos o lugar do evento, temos também que
