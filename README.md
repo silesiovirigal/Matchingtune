@@ -21,25 +21,24 @@ Sendo por isso necessária a permissão do utilizador para aceder aos seus conta
 para os seus contatos poderem ter acesso a esta funcionalidade sobre o usuário;
 
 
-## **§ Nome do projeto : _MatchingTune_**
+### **§ Nome do projeto : _MatchingTune_**
 
-## **§ Enquadramento do projeto** (incluindo a ideia, uma pesquisa sobre o contexto em que se insere, descrição dos objetivos, definição do público-alvo e pesquisa sobre 
-outras aplicações que já existam)
+### § Enquadramento do projeto _(incluindo a ideia, uma pesquisa sobre o contexto em que se insere, descrição dos objetivos, definição do público-alvo e pesquisa sobre outras aplicações que já existam)_:
 
-## **§ Uma versão preliminar com pelo menos três guiões de teste** (descrição textual passo a passo do progresso do utilizador na aplicação). :
+### § Uma versão preliminar com pelo menos três guiões de teste _(descrição textual passo a passo do progresso do utilizador na aplicação)_:
 
-## **§ 1 caso de utilização que descreva o objeto "core" do projeto :**
+### § 1 caso de utilização que descreva o objeto "core" do projeto:
 
-## **§ outros 2 casos de utilização diferentes do "core" e entre eles** (podem partir do caso de utilização descrito anteriormente) :
+### § outros 2 casos de utilização diferentes do "core" e entre eles _(podem partir do caso de utilização descrito anteriormente)_:
 
-## **§ Plano de trabalhos :**
+### § Plano de trabalhos:
 
-## **§ Project Charter and WBS :**
+### § Project Charter and WBS:
 
-## **§ Requisitos funcionais e não funcionais :**
+### § Requisitos funcionais e não funcionais:
 
-## **§ Modelo do domínio :**
+### § Modelo do domínio:
 
-## **§ Mockups e interfaces :**
+### § Mockups e interfaces:
 
-## **§ Planificação (Gráfico de Gantt) :**
+### § Planificação (Gráfico de Gantt):
