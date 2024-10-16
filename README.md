@@ -13,14 +13,18 @@ ser do interesse do utilizador.
 O _MatchingTune_ mostra também o que as pessoas à volta do utilizador estão a ouvir.
 É preciso também trabalhar com o mapa, uma vez que solicitamos o lugar do evento, temos também que
 ter acesso eventos em tempo real ou simulado; 
-  **Notificações:** Para o recurso de notificação de eventos funcionar bem, seria importante integrar informações
+
+**Notificações:** Para o recurso de notificação de eventos funcionar bem, seria importante integrar informações
 de forma precisa e atualizada sobre shows, festivais e eventos locais, o que pode exigir integração com múltiplas fontes;
-  **Contatos:** Existe também a funcionalidade de associar contatos e comparar gostos musicais entre estes. 
+
+
+**Contatos:** Existe também a funcionalidade de associar contatos e comparar gostos musicais entre estes. 
 Sendo por isso necessária a permissão do utilizador para aceder aos seus contatos telefónicos e também a permissão 
 para os seus contatos poderem ter acesso a esta funcionalidade sobre o usuário;
 
 
-### ** Nome do projeto : _MatchingTune_**
+
+### Nome do projeto : _MatchingTune_
 
 ###  Enquadramento do projeto _(incluindo a ideia, uma pesquisa sobre o contexto em que se insere, descrição dos objetivos, definição do público-alvo e pesquisa sobre outras aplicações que já existam)_: 
 O _MatchingTune_ pretende juntar os vários amantes da música entre eles apartir dos seus próprios gostos. Utilizando um algoritmo de associação entre utilizadores apartir das suas músicas guardadas, artistas ouvidos e playlists criadas. Num mundo onde cada vez mais a música se aproxima dos ouvintes, especialmente por concertos, o _MatchingTune_ indica também ao utilizador sobre eventos de música que podem ser do interesse do utilizador. Estas sugestões são feitas apartir dos eventos anunciados pelos artistas ouvidos e seguidos pelo utilizador e/ou também eventos perto do utilizador de estilos de música que este ouve.  
