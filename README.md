@@ -1,7 +1,6 @@
-# Matchingtune
-## PROJETO 1º SEMESTRE 
+# Matchingtune - PROJETO 1º SEMESTRE 
 
-# **Uma proposta inicial de projeto :**
+## **Uma proposta inicial de projeto:**
 O _MatchingTune_ é um aplicativo onde se criam conexões apartir dos gostos musicais do utilizador. 
 Conectando uma plataforma de streaming de música (Spotify, YouTube Music, AppleMusic, SoundCloud),
 o _MatchingTune_ encontra utilizadores perto do usuário e em escala global, que ouçam as mesmas músicas, 
