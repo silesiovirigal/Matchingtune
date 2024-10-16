@@ -1,4 +1,4 @@
-# Matchingtune - PROJETO 1º SEMESTRE 
+# Matchingtune - PROJETO 3º SEMESTRE 
 
 ## **Uma proposta inicial de projeto:**
 O _MatchingTune_ é um aplicativo onde se criam conexões apartir dos gostos musicais do utilizador. 
