@@ -7,15 +7,16 @@ Conectando uma plataforma de streaming de música (Spotify, YouTube Music, Apple
 o _MatchingTune_ encontra utilizadores perto do usuário e em escala global, que ouçam as mesmas músicas, 
 mesmos artistas e estilos de música. O _MatchingTune_ notifica também o utilizador de eventos perto de si. 
 Sejam artistas que ouve ou de estilos de música semelhante ao que ouve, recomendando assim eventos que possam 
-ser do interesse do utilizador
+ser do interesse do utilizador.
+
 **Permissões requisitadas:**
-**Localização:** para poder encontrar eventos perto do usuário é preciso ter acesso a localização deste.
+	**Localização:** para poder encontrar eventos perto do usuário é preciso ter acesso a localização deste.
 O _MatchingTune_ mostra também o que as pessoas à volta do utilizador estão a ouvir.
 É preciso também trabalhar com o mapa, uma vez que solicitamos o lugar do evento, temos também que
 ter acesso eventos em tempo real ou simulado. 
-**Notificações:** Para o recurso de notificação de eventos funcionar bem, seria importante integrar informações
+	**Notificações:** Para o recurso de notificação de eventos funcionar bem, seria importante integrar informações
 de forma precisa e atualizada sobre shows, festivais e eventos locais, o que pode exigir integração com múltiplas fontes.
-**Contatos:** Existe também a funcionalidade de associar contatos e comparar gostos musicais entre estes. 
+	**Contatos:** Existe também a funcionalidade de associar contatos e comparar gostos musicais entre estes. 
 Sendo por isso necessária a permissão do utilizador para aceder aos seus contatos telefónicos e também a permissão 
 para os seus contatos poderem ter acesso a esta funcionalidade sobre o usuário.
 
