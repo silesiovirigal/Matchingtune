@@ -45,7 +45,7 @@ Apesar do desafio que o _MatchingTune_ pretende ultrapassar ser mais direcionado
 ###  Project Charter and WBS:
 
 ###  Requisitos funcionais e não funcionais:
-**Requesitos Funcionais:**
+>**Requesitos Funcionais:**
 >- Criação de Conta;
 >
 >- Inicio de Sessão;
@@ -56,9 +56,9 @@ Apesar do desafio que o _MatchingTune_ pretende ultrapassar ser mais direcionado
 >
 >- Edição de Conta (Alteração de email, alteração de password, plataformas de streaming associadas, redes socias associadas, estilo de localização(Fixa ou dinâmica), Dados Pessoais, Privacidade);
 >
->- Busca de Eventos;
+>- Procura de Eventos;
 >
->- Busca de Usuários;
+>- Procura de Usuários;
 >
 >- Ver perfil de usuários;
 >
@@ -72,7 +72,25 @@ Apesar do desafio que o _MatchingTune_ pretende ultrapassar ser mais direcionado
 >
 >- Comprar bilhetes (É redirecionado para o site de venda de bilhetes);
 >
->- Visitar Redes Sociais do Usuário (É redirecionado para a aplicação ou para o site do perfil do utilizador);
+>- Visitar Redes Sociais do Usuário (É redirecionado para a aplicação ou para o site do perfil do utilizador).
+
+
+>**Requisitos não Funcionais:**
+>- Comparação entre Usuários (Idade (maior ou menor de idade), comparação das músicas gostadas, artistas ouvidos, playlists e albúns salvos);
+>
+>- Mostrar Músicas e Artistas favoritos no perfil;
+>
+>- Buscar informações às plataformas de streaming;
+>
+>- Mostrar as músicas que estão a ser ouvidas e o timestamp destas dos vários usuários;
+>
+>- Fazer sugestões de Usuários (Matches);
+>
+>- Fazer sugestões de Eventos (Baseado na localização, estilos de música do usuário, artistas ouvidos pelo usuário);
+>
+>- Rastreamento de localização;
+>
+>- Reunir informações sobre eventos.
 
 ###  Modelo do domínio:
 
