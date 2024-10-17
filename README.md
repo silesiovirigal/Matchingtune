@@ -105,9 +105,9 @@ Apesar do desafio que o _MatchingTune_ pretende ultrapassar ser mais direcionado
 
 ##  Mockups e interfaces:
 
-![Login](Login.jpg)
-![Finding Matches](FindingMatches.jpg)
-![Matches](Matches.jpg)
+![Login](Prototype/Login.jpg)
+![Finding Matches](Prototype/Finding_Matches.jpg)
+![Matches](Prototype/Matches.jpg)
 
 
 ###  Planificação (Gráfico de Gantt):
