@@ -24,7 +24,7 @@ para os seus contatos poderem ter acesso a esta funcionalidade sobre o usuário;
 
 
 
-### Nome do projeto : _MatchingTune_
+### Nome do projeto: _MatchingTune_
 
 ###  Enquadramento do projeto _(incluindo a ideia, uma pesquisa sobre o contexto em que se insere, descrição dos objetivos, definição do público-alvo e pesquisa sobre outras aplicações que já existam)_: 
 O _MatchingTune_ pretende juntar os vários amantes da música entre eles apartir dos seus próprios gostos. Utilizando um algoritmo de associação entre utilizadores apartir das suas músicas guardadas, artistas ouvidos e playlists criadas. Num mundo onde cada vez mais a música se aproxima dos ouvintes, especialmente por concertos, o _MatchingTune_ indica também ao utilizador sobre eventos de música que podem ser do interesse do utilizador. Estas sugestões são feitas apartir dos eventos anunciados pelos artistas ouvidos e seguidos pelo utilizador e/ou também eventos perto do utilizador de estilos de música que este ouve.  
@@ -45,9 +45,44 @@ Apesar do desafio que o _MatchingTune_ pretende ultrapassar ser mais direcionado
 ###  Project Charter and WBS:
 
 ###  Requisitos funcionais e não funcionais:
+**Requesitos Funcionais:**
+>- Criação de Conta;
+>
+>- Inicio de Sessão;
+>
+>- Recuperação de Password;
+>
+>- Edição de Perfil (Imagem, nome de usuário, redes socias associadas/aparecem no perfil);
+>
+>- Edição de Conta (Alteração de email, alteração de password, plataformas de streaming associadas, redes socias associadas, estilo de localização(Fixa ou dinâmica), Dados Pessoais, Privacidade);
+>
+>- Busca de Eventos;
+>
+>- Busca de Usuários;
+>
+>- Ver perfil de usuários;
+>
+>- Seguir Usuário;
+>
+>- Aceitar Match;
+>
+>- Recusar Match;
+>
+>- Bloquear Usuário;
+>
+>- Comprar bilhetes (É redirecionado para o site de venda de bilhetes);
+>
+>- Visitar Redes Sociais do Usuário (É redirecionado para a aplicação ou para o site do perfil do utilizador);
 
 ###  Modelo do domínio:
 
+![Modelo do Domínio](MatchingTune.png)
+
 ###  Mockups e interfaces:
+
+![Login](Login.jpg)
+![Finding Matches](FindingMatches.jpg)
+![Matches](Matches.jpg)
+
 
 ###  Planificação (Gráfico de Gantt):
