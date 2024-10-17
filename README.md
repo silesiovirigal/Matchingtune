@@ -35,14 +35,13 @@ Apesar do desafio que o _MatchingTune_ pretende ultrapassar ser mais direcionado
   Após uma extensa pesquisa, foi confirmado a existência de aplicações semelhantes ao _MatchingTune_ no seu conceito. No entanto, estas não estão disponíveis em Portugal, com a exceção do _TuneMeet_. Apesar disto, o _TuneMeet_ não só não é uma aplicação, mas sim um site, como apenas faz associações pela música atual que se está a ouvir, ou as cinco mais ouvidas. Sem ter em consideração a localização dos utilizadores, nem toda as suas músicas gostadas. Outras aplicações relevantes a mencionar são todas as plataformas de streaming que o _MatchingTune_ vai buscar as suas informações. A aplicação _Spotify_, apesar de não criar associações entre utilizadores, faz associações de eventos. Tendo na página de procura, uma opção para eventos ao vivo. Onde sugere eventos dos artistas que o utilizador ouve. Aparece também no perfil de artista
 
 ###  Uma versão preliminar com pelo menos três guiões de teste _(descrição textual passo a passo do progresso do utilizador na aplicação)_:
-
-###  1 caso de utilização que descreva o objeto "core" do projeto:
-
-###  outros 2 casos de utilização diferentes do "core" e entre eles _(podem partir do caso de utilização descrito anteriormente)_:
+ - **1 caso de utilização que descreva o objeto "core" do projeto:**
+ 
+ - **Outros 2 casos de utilização diferentes do "core" e entre eles _(podem partir do caso de utilização descrito anteriormente)_:**
 
 ###  Plano de trabalhos:
 
-###  Project Charter and WBS:
+###  Project Charter and WBS (Documentação a explicar as várias funcionalidades):
 
 ###  Requisitos funcionais e não funcionais:
 >**Requesitos Funcionais:**
@@ -92,11 +91,11 @@ Apesar do desafio que o _MatchingTune_ pretende ultrapassar ser mais direcionado
 >
 >- Reunir informações sobre eventos.
 
-###  Modelo do domínio:
+##  Modelo do domínio:
 
 ![Modelo do Domínio](MatchingTune.png)
 
-###  Mockups e interfaces:
+##  Mockups e interfaces:
 
 ![Login](Login.jpg)
 ![Finding Matches](FindingMatches.jpg)
@@ -104,3 +103,18 @@ Apesar do desafio que o _MatchingTune_ pretende ultrapassar ser mais direcionado
 
 
 ###  Planificação (Gráfico de Gantt):
+
+
+### Descrição da solução a implementar, incluindo:
+
+
+- Enquadramento nas diversas Unidades Curriculares: 
+
+
+- Arquitetura da Solução (mesmo que provisória); 
+
+
+- Tecnologias a utilizar (mesmo que provisória);
+
+
+## Conclusão, incluindo objetivos a atingir: 
