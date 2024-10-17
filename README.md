@@ -37,8 +37,15 @@ Apesar do desafio que o _MatchingTune_ pretende ultrapassar ser mais direcionado
 
 ###  Uma versão preliminar com pelo menos três guiões de teste _(descrição textual passo a passo do progresso do utilizador na aplicação)_:
  - **1 caso de utilização que descreva o objeto "core" do projeto:**
+
+> A persona Maia Knowles cria conta na aplicação apartir do email. Após criar uma conta e criar a respetiva password, a pessoa volta para a página de Login onde pode agora iniciar sessão com a conta criada. Ao iniciar sessão, a aplicação sugere a adição de informações ao perfil, como o associar das contas nas várias plataformas de streaming, associar redes sociais ao seu perfil, adicionar imagem de perfil e a localização. O usuário escolhe agora associar 3 contas de 3 redes sociais (_X_, _Instagram_ e _Snapchat_) e 4 contas de plataformas de streaming (_Spotify_, _Apple Music_, _SoundCloud_ e _Youtube Music_). O usuário adiciona também a sua localização em modo dinâmico. Ao associar as contas de plataformas de streaming, a aplicação inicia o algoritmo de matching. O usuário vai para a página principal, onde aparece o que os usuários perto de si estão a ouvir, o que as pessoas que segue estão a ouvir e as matches com outros usuários com gostos musicais semelhantes. A primeira match é com o usuário Josh Liam, que é de Lisboa e que tem gostos semelhantes aos de Maia nos generos de música Pop e Eletrónica. Josh tem cerca de 256 músicas em comum com Maia e 12 artistas que ambos ouvem. Maia clica na imagem de Josh, que a leva ao perfil deste e carregar no botão de seguir usuário. O usuário depois clica no icon da rede social _X_ que a redireciona para o perfil de Josh na aplicação _X_. Retornando à aplicação MatchingTune, o usuário carrega no icon para ir para a página principal onde tem outra match sugerida a este. Desta vez é com o usuário Stefane Parker, do Porto, que tem uma grande compatibilidade com Maia no estilo de música Pop, com mais de 627 músicas em comum e 34 artistas ouvidos por ambas. O usuário clica na cruz de não interessado e o perfil de Stefane Parker fica marcado como sem interesse e a match desaparece.
  
  - **Outros 2 casos de utilização diferentes do "core" e entre eles _(podem partir do caso de utilização descrito anteriormente)_:**
+
+> A persona Stefane Parker, já com conta criada e plataformas de streaming associadas, vai à página de eventos onde lhe aparece a sugestão de um recital de música clássica no Centro Comunitário do Monte Pedral no dia 18 de Outubro às 21 horas. Ao lado da sugestão tem um botão que diz comprar bilhetes onde após o usuário clicar, é redirecionado para o site de venda de bilhetes do evento. Retornando à aplicação, o usuário vê outra sugestão de evento, desta vez de um artista que ouve. É um concerto dos The Script no MEO Arena, dia 14 de março às 20 horas da noite. Onde deveria estar o botão para comprar bilhetes, está em vermelho e em letras maiúsculas "ESGOTADO". O usuário clica na cruz do lado oposto e o evento fica marcado como sem interesse e desaparece das sugestões.
+
+
+> 
 
 ###  Plano de trabalhos:
 
@@ -70,7 +77,7 @@ Apesar do desafio que o _MatchingTune_ pretende ultrapassar ser mais direcionado
 >
 >- Bloquear Usuário;
 >
->- Comprar bilhetes (É redirecionado para o site de venda de bilhetes);
+> - Comprar bilhetes (É redirecionado para o site de venda de bilhetes);
 >
 >- Visitar Redes Sociais do Usuário (É redirecionado para a aplicação ou para o site do perfil do utilizador).
 
@@ -94,7 +101,7 @@ Apesar do desafio que o _MatchingTune_ pretende ultrapassar ser mais direcionado
 
 ##  Modelo do domínio:
 
-![Modelo do Domínio](MatchingTune.png)
+![Modelo do Domínio](Data_Base/MatchingTune.png)
 
 ##  Mockups e interfaces:
 
