@@ -36,6 +36,13 @@ Apesar do desafio que o _MatchingTune_ pretende ultrapassar ser mais direcionado
   Após uma extensa pesquisa, foi confirmado a existência de aplicações semelhantes ao _MatchingTune_ no seu conceito. No entanto, estas não estão disponíveis em Portugal, com a exceção do _TuneMeet_. Apesar disto, o _TuneMeet_ não só não é uma aplicação, mas sim um site, como apenas faz associações pela música atual que se está a ouvir, ou as cinco mais ouvidas. Sem ter em consideração a localização dos utilizadores, nem toda as suas músicas gostadas. Outras aplicações relevantes a mencionar são todas as plataformas de streaming que o _MatchingTune_ vai buscar as suas informações. A aplicação _Spotify_, apesar de não criar associações entre utilizadores, faz associações de eventos. Tendo na página de procura, uma opção para eventos ao vivo. Onde sugere eventos dos artistas que o utilizador ouve. Aparece também no perfil de artista
 
 ###  Uma versão preliminar com pelo menos três guiões de teste _(descrição textual passo a passo do progresso do utilizador na aplicação)_:
+- **Personas**
+
+>![](Personas/Maia_Knowles.png)
+>![](Personas/Josh_Liam.png)
+>![](Personas/Stefane_Parker.png)
+
+
  - **1 caso de utilização que descreva o objeto "core" do projeto:**
 
 > A persona Maia Knowles cria conta na aplicação apartir do email. Após criar uma conta e criar a respetiva password, a pessoa volta para a página de Login onde pode agora iniciar sessão com a conta criada. Ao iniciar sessão, a aplicação sugere a adição de informações ao perfil, como o associar das contas nas várias plataformas de streaming, associar redes sociais ao seu perfil, adicionar imagem de perfil e a localização. O usuário escolhe agora associar 3 contas de 3 redes sociais (_X_, _Instagram_ e _Snapchat_) e 4 contas de plataformas de streaming (_Spotify_, _Apple Music_, _SoundCloud_ e _Youtube Music_). O usuário adiciona também a sua localização em modo dinâmico. Ao associar as contas de plataformas de streaming, a aplicação inicia o algoritmo de matching. O usuário vai para a página principal, onde aparece o que os usuários perto de si estão a ouvir, o que as pessoas que segue estão a ouvir e as matches com outros usuários com gostos musicais semelhantes. A primeira match é com o usuário Josh Liam, que é de Lisboa e que tem gostos semelhantes aos de Maia nos generos de música Pop e Eletrónica. Josh tem cerca de 256 músicas em comum com Maia e 12 artistas que ambos ouvem. Maia clica na imagem de Josh, que a leva ao perfil deste e carregar no botão de seguir usuário. O usuário depois clica no icon da rede social _X_ que a redireciona para o perfil de Josh na aplicação _X_. Retornando à aplicação MatchingTune, o usuário carrega no icon para ir para a página principal onde tem outra match sugerida a este. Desta vez é com o usuário Stefane Parker, do Porto, que tem uma grande compatibilidade com Maia no estilo de música Pop, com mais de 627 músicas em comum e 34 artistas ouvidos por ambas. O usuário clica na cruz de não interessado e o perfil de Stefane Parker fica marcado como sem interesse e a match desaparece.
@@ -44,12 +51,9 @@ Apesar do desafio que o _MatchingTune_ pretende ultrapassar ser mais direcionado
 
 > A persona Stefane Parker, já com conta criada e plataformas de streaming associadas, vai à página de eventos onde lhe aparece a sugestão de um recital de música clássica no Centro Comunitário do Monte Pedral no dia 18 de Outubro às 21 horas. Ao lado da sugestão tem um botão que diz comprar bilhetes onde após o usuário clicar, é redirecionado para o site de venda de bilhetes do evento. Retornando à aplicação, o usuário vê outra sugestão de evento, desta vez de um artista que ouve. É um concerto dos The Script no MEO Arena, dia 14 de março às 20 horas da noite. Onde deveria estar o botão para comprar bilhetes, está em vermelho e em letras maiúsculas "ESGOTADO". O usuário clica na cruz do lado oposto e o evento fica marcado como sem interesse e desaparece das sugestões.
 
+> A persona Josh Liam, já com conta criada e plataforma de streaming associadas, vai à página principal onde aparecem as matches com outros usuários, o que os usuários que segue estão a ouvir e o que as pessoas à sua volta estão a ouvir. O usuário, quando escolheu as suas opções de localização, escolheu localização fixa, ou seja, não permitiu que a aplicação obtivesse a sua localização e optou por estar sempre localizado no mesmo sítio, numa posição genérica. Isto é, a sua localização estava como sendo Lisboa na sua totalidade. Tendo esta feature ativa, o usuário não aparece nas páginas principais como estando nas redondezas mas também não lhe aparecem usuários que estejam realmente perto dele mas sim na localização de lisboa de uma forma geral. O utilizador caso queira aparecer na página inicial de outros usuários, tem de escolher uma posição exata para a sua localização (não sendo necessariamente algum local em que tivesse estado) ou alterar para posição dinâmica. O usuário decide alterar para um ponto exato a sua localização, os usuários que serão considerados como estando nas redondezas continuaram a ser os mesmos utilizadores que apareciam antes. Caso o usuário queira ver o que os usuários de uma específica zona estão a ouvir, tem de estar nessa zona específica e ativar a localização dinâmica. Não é possível ver o que os utilizadores de uma certa área estão a ouvir a não ser que se esteja naquela área com a localização dinâmica ativa.
 
-> 
-
-###  Plano de trabalhos:
-
-###  Project Charter and WBS (Documentação a explicar as várias funcionalidades):
+###  Plano de trabalhos, Project Charter and WBS (Documentação a explicar as várias funcionalidades):
 
 ###  Requisitos funcionais e não funcionais:
 >**Requesitos Funcionais:**
@@ -111,6 +115,7 @@ Apesar do desafio que o _MatchingTune_ pretende ultrapassar ser mais direcionado
 
 
 ###  Planificação (Gráfico de Gantt):
+![](OutrosAnexos/Gráfico_de_Gantt.jpg)
 
 
 ### Descrição da solução a implementar, incluindo:
