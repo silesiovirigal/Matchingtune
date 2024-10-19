@@ -1,8 +1,9 @@
 # Matchingtune - PROJETO 3º SEMESTRE 
-#Música #Match #Aplicação #Pessoas #Eventos #Comunidade #Arredores #A Acontecer #Amigos
+![](OutrosAnexos/Logo_IADE_endUE_png-1024x241.png)
+Desenvolvido por: Kira Sousa (20231205), Silésio Pipa (20220618), Yosvany Nunes (20230853)
 
 # Nome do projeto: _MatchingTune_
-
+#Música #Match #Aplicação #Pessoas #Eventos #Comunidade #Arredores #A Acontecer #Amigos
 ## **Uma proposta inicial de projeto:**
 O _MatchingTune_ é um aplicativo onde se criam conexões a partir dos gostos musicais do utilizador. 
 Conectando uma plataforma de streaming de música (_Spotify_, _YouTube Music_, _AppleMusic_, _SoundCloud_),
@@ -118,21 +119,50 @@ Ao associar as redes sociais e plataformas de streaming, o usuário não só con
 ![Finding Matches](Prototype/Finding_Matches.jpg)
 ![Matches](Prototype/Matches.jpg)
 
+## Solução a implementar:
+Este projeto, contempla várias bases esseciais para ser concebido. O mais óbvio a realçar é o da aplicação em si. O _MatchingTune_ visa ser uma aplicação móvel feita em _Android Studio_ utilizando o Kotlin e Jetpack Compose. É também necessário a criação de um servidor em Spring Boot para servir de suporte à Base de Dados que é responsável pelo armazenamento das informações e dados dos utilizadores. Relativamente à unidade curricular de matemática discreta, tem-se o desenvolvimento da componente de processamento e análise dos dados recolhidos pela aplicação para depois estes dados serem usados para o algoritmos de comparação para matching. Os vários relatórios, vídeos e apresentações em geral do projeto, têm como suporte a disciplina de competências comunicacionais, que visa fazer com que estas apresentações atinjam os seus potenciais máximos.
 
 
+### Permissões requisitadas:
 
-### Descrição da solução a implementar, incluindo:
+- **Localização:** para poder encontrar eventos perto do usuário é preciso ter acesso a localização deste. O _MatchingTune_ mostra também o que as pessoas à volta do utilizador estão a ouvir. É preciso também trabalhar com o mapa, uma vez que solicitamos o lugar do evento, temos também que ter acesso eventos em tempo real ou simulado;   
 
+- **Notificações:** Para o recurso de notificação de eventos funcionar bem, seria importante integrar informações de forma precisa e atualizada sobre shows, festivais e eventos locais, o que pode exigir integração com múltiplas fontes; 
 
-- Enquadramento nas diversas Unidades Curriculares: 
+- **Contatos:** Existe também a funcionalidade de associar contatos e comparar gostos musicais entre estes. Sendo por isso necessária a permissão do utilizador para aceder aos seus contatos telefónicos e também a permissão para os seus contatos poderem ter acesso a esta funcionalidade sobre o usuário;
 
+- **Redes Socias:** À semelhança dos contactos, o utilizador consegue encontrar amigos mútuos das redes sociais, na aplicação, ao associar estas. Fica também disponível, para os outros utilizadores, a possibilidade de serem redirecionados para o perfil destes nas respetivas redes sociais.
 
-- Arquitetura da Solução (mesmo que provisória); 
+- **Plataforma de Streaming:** Para aplicação alcançar o seu objetivo core, o usuário precisa de pelo menos associar uma plataforma de streaming de música para o algoritmo de matching poder funcionar. É possível conectar mais que uma conta de plataformas de streaming, o algoritmo de matching fará uma comparação entre as várias contas associadas para reúnir todas as músicas, artistas, playlists e géneros de música ouvidos e compilar num só registo, que será posteriormente utilizado para fazer matches com outros utilizadores.
 
+## Tecnologias a utilizar (podem vir a ser provisórias):
+- Android Studio Koala Feature Drop - para ambiente de desenvolvimento da aplicação Android;
 
-- Tecnologias a utilizar (mesmo que provisória);
+- Visual Studio Code - como ambiente de desenvolvimento do servidor em Java;
 
+- My SQL Workbench - para modulação da Base de Dados;
 
-## Conclusão, incluindo objetivos a atingir: 
+- MAMP - como servidor provisório de suporte à base de Dados;
 
-## Bibliografia (Sites utilizados):
+- Figma - como ambiente de desenvolvimento da interface gráfica (realizado por designer externo);
+
+- Github - para gestão de versões e documentação do projeto;
+
+- Clickup - para gestão do projeto;
+
+- Discord - como plataforma de comunicação principal de suporte ao projeto.
+
+## Conclusão: 
+O projeto está estruturado para conseguir funcionar como uma aplicação de conexão entre pessoas a partir da comodidade das contas já existentes e utilizadas pelos utilizadores, evitanto a construção do zero de mais um perfil social. Sendo este o principal objetivo a atingir, aspetos como a componente de sugestão de eventos seria considerado um objetivo adicional a tentar alcançar no âmbito do desenvolvimento do projeto. Existem também recursos que gostaríamos adicionar mas que não serão contemplados no âmbito do projeto de semestre. Alguns exemplos deste recursos adicionais, para além dos anteriormente referidos, é a criação de um algoritmo para encontrar músicas e artistas semelhantes entre os utilizadores.
+
+## Bibliografia:
+
+Mockups de Interface: https://www.figma.com/pt-br/
+
+Modelo de Domínio: https://dbdiagram.io/home
+
+Gráfico de Gantt: https://miro.com/pt/
+
+Personas: https://lucid.co/pt
+
+Logotipos de aplicações: https://www.pngwing.com/pt
