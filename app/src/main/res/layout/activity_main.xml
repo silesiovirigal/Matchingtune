@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_appp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="MainActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MACTHING TUNE"
+        android:textSize="35sp"
+        android:textColor="#f3f3f3"
+        android:fontFamily="@font/lexend"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:letterSpacing="0.3"
+        android:textStyle="normal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/lexend"
+        android:letterSpacing="0.1"
+        android:text="Log in"
+        android:textColor="#f3f3f3"
+        android:textSize="35dp" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="305sp"
+        android:layout_height="50sp"
+        android:hint="username"
+        android:inputType="text"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="5mm"
+        android:textColor="@color/black"
+        android:textSize="3.5mm"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_edittext"
+        android:alpha="0.5"/>
+
+
+    <EditText
+        android:id="@+id/passWord"
+        android:layout_width="305sp"
+        android:layout_height="50sp"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="5mm"
+        android:textColor="@color/black"
+        android:textSize="3.5mm"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_edittext"
+        android:alpha="0.5"/>
+
+
+    <TextView
+        android:id="@+id/inscrever"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:alpha="0.5"
+        android:fontFamily="@font/lexend"
+        android:letterSpacing="0.1"
+        android:text="Don't have account? Sign in"
+        android:textColor="#f3f3f3"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/myButton_entrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrar"
+        android:textColor="@color/white"
+        android:letterSpacing="0.1"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/custom_border"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:layout_marginTop="20mm"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_spotify"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:baselineAligned="false"
+            android:contentDescription="Descrição do botão"
+            android:alpha="0.2"
+            android:src="@drawable/spotify11" />
+
+        <ImageButton
+            android:id="@+id/btn_google"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Descrição do botão"
+            android:alpha="0.2"
+            android:src="@drawable/google" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
