@@ -155,6 +155,19 @@ Ao associar as redes sociais e plataformas de streaming, o usuário não só con
 ![](Anexos/Frames/DarkMode/NearbyMatches/1.jpg)
 ![](Anexos/Frames/LightMode/NearbyMatches/1.jpg)
 
+### Perfil
+![](Anexos/Frames/DarkMode/Profile/1.jpg)
+![](Anexos/Frames/LightMode/Profile/1.jpg)
+![](Anexos/Frames/DarkMode/Profile/2.jpg)
+![](Anexos/Frames/LightMode/Profile/2.jpg)
+![](Anexos/Frames/DarkMode/Profile/3.jpg)
+![](Anexos/Frames/LightMode/Profile/3.jpg)
+
+
+### Eventos
+![](Anexos/Frames/DarkMode/Events/1.jpg)
+![](Anexos/Frames/LightMode/Events/1.jpg)
+
 ## Solução a implementar:
 Este projeto, contempla várias bases esseciais para ser concebido. O mais óbvio a realçar é o da aplicação em si. O _MatchingTune_ visa ser uma aplicação móvel feita em _Android Studio_ utilizando o Kotlin e Jetpack Compose. É também necessário a criação de um servidor em Spring Boot para servir de suporte à Base de Dados que é responsável pelo armazenamento das informações e dados dos utilizadores. Relativamente à unidade curricular de matemática discreta, tem-se o desenvolvimento da componente de processamento e análise dos dados recolhidos pela aplicação para depois estes dados serem usados para o algoritmos de comparação para matching. Os vários relatórios, vídeos e apresentações em geral do projeto, têm como suporte a disciplina de competências comunicacionais, que visa fazer com que estas apresentações atinjam os seus potenciais máximos.
 
