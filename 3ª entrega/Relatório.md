@@ -1,5 +1,5 @@
 # Matchingtune - PROJETO 3º SEMESTRE 
-![](OutrosAnexos/Logo_IADE_endUE_png-1024x241.png)
+![](/Documentação/OutrosAnexos/Logo_IADE_endUE_png-1024x241.png)
 Desenvolvido por: Kira Sousa (20231205), Silésio Pipa (20220618), Yosvany Nunes (20230853)
 
 # Nome do projeto: _MatchingTune_
@@ -53,8 +53,6 @@ Ao associar as redes sociais e plataformas de streaming, o usuário não só con
 >
 >- Edição de Conta (Alteração de email, alteração de password, plataformas de streaming associadas, redes socias associadas, estilo de localização(Fixa ou dinâmica), Dados Pessoais, Privacidade);
 >
->- Procura de Eventos;
->
 >- Procura de Usuários;
 >
 >- Ver perfil de usuários;
@@ -66,8 +64,6 @@ Ao associar as redes sociais e plataformas de streaming, o usuário não só con
 >- Recusar Match;
 >
 >- Bloquear Usuário;
->
-> - Comprar bilhetes (É redirecionado para o site de venda de bilhetes);
 >
 >- Visitar Redes Sociais do Usuário (É redirecionado para a aplicação ou para o site do perfil do utilizador).
 
@@ -94,9 +90,9 @@ Ao associar as redes sociais e plataformas de streaming, o usuário não só con
 ##  Study Cases:
 - **Personas**
 
->![](Personas/Maia_Knowles.png)
->![](Personas/Josh_Liam.png)
->![](Personas/Stefane_Parker.png)
+>![](Anexos/Maia_Knowles.png)
+>![](Anexos/Josh_Liam.png)
+>![](Anexos/Stefane_Parker.png)
 
 
  - **1 caso de utilização que descreva o objeto "core" do projeto:**
@@ -111,13 +107,53 @@ Ao associar as redes sociais e plataformas de streaming, o usuário não só con
 
 ##  Modelo do domínio:
 
-![Modelo do Domínio](Anexos/ModeloMatchingTune)
+![Modelo do Domínio](Anexos/ModeloMatchingTune.jpg)
 
 ##  Mockups e interfaces:
 
-![Login](Prototype/Login.jpg)
-![Finding Matches](Prototype/Finding_Matches.jpg)
-![Matches](Prototype/Matches.jpg)
+### Log In
+![Login1](Anexos/Frames/DarkMode/LogIn/1.jpg)
+![Login1](Anexos/Frames/LightMode/LogIn/1.jpg)
+![Login2](Anexos/Frames/DarkMode/LogIn/2.jpg)
+![Login2](Anexos/Frames/LightMode/LogIn/2.jpg)
+![Login3](Anexos/Frames/DarkMode/LogIn/3.jpg)
+![Login3](Anexos/Frames/LightMode/LogIn/3.jpg)
+
+
+### Loading Screen
+
+![](Anexos/Frames/DarkMode/LoadingScreen/1.jpg)
+![](Anexos/Frames/LightMode/LoadingScreen/1.jpg)
+![](Anexos/Frames/DarkMode/LoadingScreen/2.jpg)
+![](Anexos/Frames/LightMode/LoadingScreen/2.jpg)
+![](Anexos/Frames/DarkMode/LoadingScreen/3.jpg)
+![](Anexos/Frames/LightMode/LoadingScreen/3.jpg)
+![](Anexos/Frames/DarkMode/LoadingScreen/4.jpg)
+![](Anexos/Frames/LightMode/LoadingScreen/4.jpg)
+
+### Home Page
+![](Anexos/Frames/DarkMode/HomePage/1.jpg)
+![](Anexos/Frames/LightMode/HomePage/1.jpg)
+![](Anexos/Frames/DarkMode/HomePage/2.jpg)
+![](Anexos/Frames/LightMode/HomePage/2.jpg)
+
+### Match Profile
+![](Anexos/Frames/DarkMode/MatchProfile/1.jpg)
+![](Anexos/Frames/LightMode/MatchProfile/1.jpg)
+![](Anexos/Frames/DarkMode/MatchProfile/2.jpg)
+![](Anexos/Frames/LightMode/MatchProfile/2.jpg)
+![](Anexos/Frames/DarkMode/MatchProfile/3.jpg)
+![](Anexos/Frames/LightMode/MatchProfile/3.jpg)
+![](Anexos/Frames/DarkMode/MatchProfile/4.jpg)
+![](Anexos/Frames/LightMode/MatchProfile/4.jpg)
+![](Anexos/Frames/DarkMode/MatchProfile/5.jpg)
+![](Anexos/Frames/LightMode/MatchProfile/5.jpg)
+![](Anexos/Frames/DarkMode/MatchProfile/6.jpg)
+![](Anexos/Frames/LightMode/MatchProfile/6.jpg)
+
+### Nearby Matches
+![](Anexos/Frames/DarkMode/NearbyMatches/1.jpg)
+![](Anexos/Frames/LightMode/NearbyMatches/1.jpg)
 
 ## Solução a implementar:
 Este projeto, contempla várias bases esseciais para ser concebido. O mais óbvio a realçar é o da aplicação em si. O _MatchingTune_ visa ser uma aplicação móvel feita em _Android Studio_ utilizando o Kotlin e Jetpack Compose. É também necessário a criação de um servidor em Spring Boot para servir de suporte à Base de Dados que é responsável pelo armazenamento das informações e dados dos utilizadores. Relativamente à unidade curricular de matemática discreta, tem-se o desenvolvimento da componente de processamento e análise dos dados recolhidos pela aplicação para depois estes dados serem usados para o algoritmos de comparação para matching. Os vários relatórios, vídeos e apresentações em geral do projeto, têm como suporte a disciplina de competências comunicacionais, que visa fazer com que estas apresentações atinjam os seus potenciais máximos.
